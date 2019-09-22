@@ -1,0 +1,36 @@
+{
+    "name": "l13-extension-pack",
+    "displayName": "L13 Extension Pack",
+    "description": "A collection of all L13 extensions.",
+    "version": "0.13.0",
+	"publisher": "L13RARY",
+	"license": "SEE LICENCE IN LICENCE.md",
+	"homepage": "https://github.com/l13/vscode-extension-pack/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/l13/vscode-extension-pack.git"
+	},
+	"bugs": {
+		"url": "https://github.com/l13/vscode-extension-pack/issues"
+	},
+	"icon": "images/icon.png",
+	"galleryBanner": {
+		"color": "#232323",
+		"theme": "dark"
+	},
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "L13RARY.l13-css-snippets",
+        "L13RARY.l13-diff",
+        "L13RARY.l13-duplicate",
+        "L13RARY.l13-js-snippets",
+        "L13RARY.l13-projects",
+        "L13RARY.l13-swap",
+        "L13RARY.l13-theme"
+    ]
+}
